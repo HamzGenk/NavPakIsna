@@ -34,15 +34,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        // Menangani klik menu
         switch (item.getItemId()) {
-            case 1:
+            case R.id.action_menu1:
                 Toast.makeText(this, "Menu 1", Toast.LENGTH_SHORT).show();
                 return true;
-            case 2:
+            case R.id.action_menu2:
                 Toast.makeText(this, "Menu 2", Toast.LENGTH_SHORT).show();
                 return true;
-            case 3:
+            case R.id.action_menu3:
                 Toast.makeText(this, "Menu 3", Toast.LENGTH_SHORT).show();
                 return true;
             default:
